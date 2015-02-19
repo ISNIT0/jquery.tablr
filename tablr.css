@@ -75,7 +75,7 @@ body {
 }
 
 .tablr:hover .buttons {
-    top: -70px;
+    top: -100px;
 }
 
 .tablr button.paging {
