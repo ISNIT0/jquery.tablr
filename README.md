@@ -1,2 +1,2 @@
-# jquery.tablr
-Super Easy Table Plugin
+# jquery.tabify
+Easily add tabs to your page.
