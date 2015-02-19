@@ -10,7 +10,7 @@ h1 {
   background-image: -webkit-image-set(url("./logo.png") 1x, url("./logo.png") 2x);
   background-size: cover;
   width: 385px;
-  height: 180px;
+  height: 230px;
   text-indent: -9999px;
   white-space: nowrap;
   margin: 50px auto; }
