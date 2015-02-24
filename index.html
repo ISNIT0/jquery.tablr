@@ -115,10 +115,26 @@
                     {name:'Sam', age:18},
                     {name:'Joe', gender:'male'},
                     {name:'Moar', age:18},
-                    {name:'Test', gender:'male'}
+                    {name:'Test', gender:'male'},
+                    {name:'Freddie', gender:'male'},
+                    {name:'Sam', age:18},
+                    {name:'Joe', gender:'male'},
+                    {name:'Moar', age:18},
+                    {name:'Test', gender:'male'},
+                    {name:'Freddie', gender:'male'},
+                    {name:'Sam', age:18},
+                    {name:'Joe', gender:'male'},
+                    {name:'Moar', age:18},
+                    {name:'Test', gender:'male'},
+                    {name:'Freddie', gender:'male'},
+                    {name:'Sam', age:18},
+                    {name:'Joe', gender:'male'},
+                    {name:'Moar', age:18},
+                    {name:'Test', gender:'male'},
+                    {name:'Freddie', gender:'male'}
                 ]
 
-                $('.go').click(function(){$('.table').renderTable(mydata)});
+                $('.go').click(function(){$('.table').tablr({data:mydata})});
                 $('.reset').click(function(){$('.table').replaceWith($('.tableBak').clone().removeClass('tableBak').addClass('table'))});
             </script>
             <style>
